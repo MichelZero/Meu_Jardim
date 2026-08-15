@@ -257,7 +257,7 @@ def main(page: ft.Page):
                 cor_borda = "blue" if esta_selecionado else "white30"
                 container_chip = ft.Container(
                     content=ft.Text(d, size=10, weight="bold", color="white"),
-                    alignment="center",
+                    alignment=ft.Alignment.CENTER,
                     padding=4,
                     width=38,
                     height=28,
